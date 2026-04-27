@@ -5,10 +5,6 @@
 
 import { createBrowserRouter } from "react-router-dom";
 import Layout from "@/layouts/Layout";
-// TODO: 페이지가 많아지면 lazy loading을 고려해보는거 어떨까요..?
-// import { lazy, Suspense } from 'react';
-// const HomePage = lazy(() => import('@/pages/HomePage'));
-
 
 import ErrorPage400 from "@/pages/error/ErrorPage400";
 import ErrorPage500 from "@/pages/error/ErrorPage500";
